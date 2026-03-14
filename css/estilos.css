@@ -41,3 +41,71 @@ body {
     border: 5px solid var(--secondary-color);
     margin-bottom: 10px;
 }
+
+.contact {
+    padding: var(--spacing);
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background: white;
+    padding: var(--spacing);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form__fieldset {
+
+    border: 2px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form__legend {
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.form__group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form__input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(6, 90, 130, 0.5);
+}
+
+.form__button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form__button:hover {
+    background-color: #04405e; 
+}
