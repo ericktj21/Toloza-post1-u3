@@ -1,0 +1,21 @@
+# Perfil Personal - CSS3 Básico
+
+**Estudiante:** Erick Mauricio Toloza Jara
+**Código:** 02230131006
+**Módulo:** Programación Web - Unidad 3
+
+## Descripción del Proyecto
+Esta es una página web de perfil personal construida para demostrar el dominio de los fundamentos de CSS3. El proyecto implementa:
+* **HTML5 Semántico:** Uso correcto de etiquetas como `<header>`, `<main>`, `<section>`, `<form>` y `<fieldset>`.
+* **Metodología BEM:** Clases estructuradas (Bloque, Elemento, Modificador) para un código escalable y fácil de mantener.
+* **Custom Properties (Variables CSS):** Para mantener una paleta de colores y espaciados consistentes en todo el sitio.
+* **Box Model Avanzado:** Uso de `box-sizing: border-box` para un control preciso del tamaño de los elementos.
+* **Posicionamiento:** Uso de Flexbox y posicionamiento tradicional para alinear los elementos de las tarjetas y el formulario.
+
+## Instrucciones de Ejecución
+1. Clona este repositorio o descarga los archivos.
+2. Abre el archivo `index.html` en cualquier navegador web moderno (Chrome, Firefox, Edge).
+3. No se requiere servidor local, funciona directamente abriendo el archivo en el navegador.
+
+## Captura de Pantalla
+![Captura del Perfil](img/captura.png)
