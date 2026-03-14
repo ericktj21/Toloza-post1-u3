@@ -1,1 +1,36 @@
-ECHO est� activado.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil Personal - Erick Toloza</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Mi Perfil Profesional</h1>
+    </header>
+
+    <main class="main-content">
+        <section class="profile">
+            <div class="profile__card">
+                <img src="img/perfil.jpg" alt="Foto de Erick" class="profile__img">
+                <h2 class="profile__name">Erick Toloza</h2>
+                <p class="profile__tagline">Estudiante de Ingeniería de Sistemas</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <form class="form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Envíame un mensaje</legend>
+                    <div class="form__group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" class="form__input" required>
+                    </div>
+                    <button type="submit" class="form__button">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

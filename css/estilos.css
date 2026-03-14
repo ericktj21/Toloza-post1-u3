@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #065A82;
+    --secondary-color: #D5E8F0;
+    --accent-color: #FFD700;
+    --text-color: #333;
+    --spacing: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing);
+}
+
+.profile__card {
+    background: white;
+    width: 350px;
+    padding: var(--spacing);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative; 
+}
+
+.profile__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--secondary-color);
+    margin-bottom: 10px;
+}
